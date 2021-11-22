@@ -6,7 +6,10 @@ orbs:
 workflows:
   test-build-deploy:
     jobs:
-      - build
+      - test
+      - build:
+          requires:
+            - test
       - heroku/deploy-via-git:
           requires:
             - build
@@ -27,5 +30,5 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: npm ci && npm build
+      - run: npm install && npm run build
 
