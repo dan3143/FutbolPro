@@ -10,6 +10,11 @@ workflows:
       - build:
           requires:
             - test
+          filters:
+            branches:
+              only:
+                - main
+                - prod
       - heroku/deploy-via-git:
           requires:
             - build
