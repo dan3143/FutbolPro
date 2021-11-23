@@ -6,8 +6,10 @@ import jsonData from '../mocks/countries.json';
 const getCountries = (from = 'json'): Promise<Array<Country>> => {
   return from === 'api'
     ? fetchCountries()
-    : new Promise((resolve, reject) => resolve(jsonData.slice(0, 10)));
+    : new Promise((resolve, reject) => resolve(jsonData.slice(0, 50)));
 };
+
+const from = process.env.NODE_ENV === 'development' ? 'json' : 'api';
 
 const useCountries = (): [
   Array<Country>,
@@ -21,13 +23,14 @@ const useCountries = (): [
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    getCountries().then((response) => {
+    getCountries(from).then((response) => {
       setCountries(response);
       setFilteredCountries(response);
       setIsLoading(false);
     });
     return () => {
       setCountries([]);
+      setFilteredCountries([]);
       setIsLoading(true);
     };
   }, []);
