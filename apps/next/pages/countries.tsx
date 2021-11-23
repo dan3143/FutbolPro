@@ -8,9 +8,7 @@ const Countries = () => {
   return (
     <div className="p-10">
       {isLoading ? (
-        <div className="mt-16 flex justify-center">
-          <Loading />
-        </div>
+        <Loading />
       ) : (
         <div>
           <input
