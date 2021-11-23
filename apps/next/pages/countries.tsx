@@ -7,7 +7,7 @@ const Countries = () => {
   return (
     <div className="p-10">
       {isLoading ? (
-        <div>
+        <div className="mt-16 flex justify-center">
           <Loading />
         </div>
       ) : (
