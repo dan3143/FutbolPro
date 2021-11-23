@@ -22,7 +22,7 @@ const Countries = () => {
           <p className="mb-5 text-xl text-gray-700">
             Países encontrados: {totalData}
           </p>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {countries.map((country) => (
               <CountryInfo key={country.name} country={country} />
             ))}
