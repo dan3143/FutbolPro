@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@futbol-pro/data-access-football-api": [
+        "libs/data-access-football-api/src/index.ts"
+      ],
+      "@futbol-pro/types": ["libs/types/src/index.ts"],
       "@futbol-pro/ui": ["libs/ui/src/index.ts"]
     }
   },

@@ -1,7 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "data-access-football-api": "libs/data-access-football-api",
     "next": "apps/next",
+    "types": "libs/types",
     "ui": "libs/ui"
   }
 }
