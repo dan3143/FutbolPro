@@ -1,6 +1,13 @@
 import { Country } from '@futbol-pro/types';
 import { useEffect, useState } from 'react';
-import { getCountries } from '@futbol-pro/data-access-football-api';
+import { fetchCountries } from '@futbol-pro/data-access-football-api';
+import jsonData from '../mocks/countries.json';
+
+const getCountries = (from = 'json'): Promise<Array<Country>> => {
+  return from === 'api'
+    ? fetchCountries()
+    : new Promise((resolve, reject) => resolve(jsonData.slice(0, 10)));
+};
 
 const useCountries = (): [
   Array<Country>,
