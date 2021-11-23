@@ -1,6 +1,5 @@
 import useCountries from '../hooks/useCountries';
-import { Loading } from '@futbol-pro/ui';
-import { CountryInfo } from '@futbol-pro/ui';
+import { CountryInfo, Loading, SearchBar } from '@futbol-pro/ui';
 
 const Countries = () => {
   const [countries, filterCountries, isLoading] = useCountries();
@@ -11,12 +10,7 @@ const Countries = () => {
         <Loading />
       ) : (
         <div>
-          <input
-            className="mb-10 w-full p-5 text-xl rounded border-2 border-gray-300 focus:border-transparent"
-            placeholder="Buscar país"
-            type="text"
-            onChange={(e) => filterCountries(e.target.value)}
-          />
+          <SearchBar placeholder="Busca un país" filter={filterCountries} />
           <p className="mb-5 text-xl text-gray-700">
             Países encontrados: {totalData}
           </p>
