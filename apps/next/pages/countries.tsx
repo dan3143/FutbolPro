@@ -13,7 +13,7 @@ const Countries = () => {
       ) : (
         <div className="">
           <input
-            className="mb-10 w-full shadow-md p-5 text-xl rounded"
+            className="mb-10 w-full p-5 text-xl rounded border-2 border-gray-300 focus:border-transparent"
             placeholder="Buscar país"
             type="text"
             onChange={(e) => filterCountries(e.target.value)}
