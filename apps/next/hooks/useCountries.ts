@@ -26,8 +26,9 @@ const useCountries = (): [
   }, []);
 
   const filterCountries = (search: string) => {
+    search = search.toLowerCase();
     const filtered = countries.filter((country) =>
-      country.name.startsWith(search)
+      country.name.toLowerCase().startsWith(search)
     );
     setFilteredCountries(filtered);
   };
