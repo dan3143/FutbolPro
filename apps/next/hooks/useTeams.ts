@@ -1,18 +1,6 @@
 import { fetchTeams } from '@futbol-pro/data-access-football-api';
 import { Team } from '@futbol-pro/types';
 import { useEffect, useState } from 'react';
-import jsonData from '../mocks/teams.json';
-
-const getTeams = (country: string, from = 'json'): Promise<Array<Team>> => {
-  return from === 'api'
-    ? fetchTeams(country)
-    : new Promise((resolve, reject) =>
-        resolve(jsonData.response.map((team) => team.team))
-      );
-};
-
-const from = process.env.NODE_ENV === 'development' ? 'json' : 'api';
-console.log(process.env.NODE_ENV);
 
 const useTeams = (
   country: string
@@ -30,7 +18,7 @@ const useTeams = (
   };
 
   useEffect(() => {
-    getTeams(country, from).then((response) => {
+    fetchTeams(country).then((response) => {
       setTeams(response);
       setFilteredTeams(response);
       setIsLoading(false);
