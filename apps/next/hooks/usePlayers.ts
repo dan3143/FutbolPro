@@ -13,7 +13,6 @@ const getPlayers = (
 };
 
 const from = process.env.NODE_ENV === 'development' ? 'json' : 'api';
-console.log(from);
 
 const usePlayers = (teamId: number): [Array<Player>, TeamResponse, boolean] => {
   const [players, setPlayers] = useState<Array<Player>>([]);
