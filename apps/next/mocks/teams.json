@@ -1,0 +1,1059 @@
+{
+  "get": "teams",
+  "parameters": {
+    "country": "Colombia"
+  },
+  "errors": [],
+  "results": 55,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 8,
+        "name": "Colombia",
+        "country": "Colombia",
+        "founded": 1924,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/8.png"
+      },
+      "venue": {
+        "id": 366,
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+        "city": "Barranquilla",
+        "capacity": 49612,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/366.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1125,
+        "name": "Millonarios",
+        "country": "Colombia",
+        "founded": 1946,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1125.png"
+      },
+      "venue": {
+        "id": 383,
+        "name": "Estadio Nemesio Camacho El Campín",
+        "address": "Avenida N.Q.S Calle 57",
+        "city": "Bogotá, D.C.",
+        "capacity": 37000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/383.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1126,
+        "name": "Deportivo Pasto",
+        "country": "Colombia",
+        "founded": 1949,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1126.png"
+      },
+      "venue": {
+        "id": 377,
+        "name": "Estadio Departamental Libertad",
+        "address": "Carrera 8",
+        "city": "San Juan de Pasto",
+        "capacity": 27380,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/377.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1127,
+        "name": "Deportivo Cali",
+        "country": "Colombia",
+        "founded": 1912,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1127.png"
+      },
+      "venue": {
+        "id": 376,
+        "name": "Estadio Deportivo Cali",
+        "address": "BN 25",
+        "city": "Palmira",
+        "capacity": 52000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/376.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1128,
+        "name": "Independiente Medellin",
+        "country": "Colombia",
+        "founded": 1913,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1128.png"
+      },
+      "venue": {
+        "id": 380,
+        "name": "Estadio Atanasio Girardot",
+        "address": "Entre carreras 70 y 73 y las Calles 48 y 50",
+        "city": "Medellín",
+        "capacity": 45943,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/380.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1129,
+        "name": "Envigado",
+        "country": "Colombia",
+        "founded": 1989,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1129.png"
+      },
+      "venue": {
+        "id": 379,
+        "name": "Estadio Polideportivo Sur",
+        "address": "Carrera 48 No. 46 Sur 150",
+        "city": "Envigado",
+        "capacity": 11000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/379.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1130,
+        "name": "Huila",
+        "country": "Colombia",
+        "founded": 1990,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1130.png"
+      },
+      "venue": {
+        "id": 370,
+        "name": "Estadio Guillermo Plazas Alcid",
+        "address": "Carrera 18 Nº 18 - 25",
+        "city": "Neiva",
+        "capacity": 27000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/370.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1131,
+        "name": "Bucaramanga",
+        "country": "Colombia",
+        "founded": 1949,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1131.png"
+      },
+      "venue": {
+        "id": 369,
+        "name": "Estadio Alfonso López",
+        "address": "Carrera 36 Nº 53-12, Cabecera del Llano",
+        "city": "Bucaramanga",
+        "capacity": 28000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/369.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1132,
+        "name": "Chico",
+        "country": "Colombia",
+        "founded": 2002,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1132.png"
+      },
+      "venue": {
+        "id": 372,
+        "name": "Estadio de La Independencia",
+        "address": "Villa Olímpica",
+        "city": "Tunja",
+        "capacity": 20630,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/372.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1133,
+        "name": "Jaguares",
+        "country": "Colombia",
+        "founded": 2012,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1133.png"
+      },
+      "venue": {
+        "id": 1779,
+        "name": "Estadio de Fútbol Jaraguay de Montería",
+        "address": null,
+        "city": "Montería",
+        "capacity": 12000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1779.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1134,
+        "name": "La Equidad",
+        "country": "Colombia",
+        "founded": 1990,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1134.png"
+      },
+      "venue": {
+        "id": 371,
+        "name": "Estadio Metropolitano de Techo",
+        "address": "Tv 71D, Kennedy",
+        "city": "Bogotá, D.C.",
+        "capacity": 7800,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/371.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1135,
+        "name": "Junior",
+        "country": "Colombia",
+        "founded": 1924,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1135.png"
+      },
+      "venue": {
+        "id": 366,
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+        "city": "Barranquilla",
+        "capacity": 49612,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/366.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1136,
+        "name": "Once Caldas",
+        "country": "Colombia",
+        "founded": 1961,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1136.png"
+      },
+      "venue": {
+        "id": 384,
+        "name": "Estadio Palogrande",
+        "address": "Carrera 24 # 64 - 00",
+        "city": "Manizales",
+        "capacity": 42678,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/384.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1137,
+        "name": "Atletico Nacional",
+        "country": "Colombia",
+        "founded": 1947,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1137.png"
+      },
+      "venue": {
+        "id": 380,
+        "name": "Estadio Atanasio Girardot",
+        "address": "Entre carreras 70 y 73 y las Calles 48 y 50",
+        "city": "Medellín",
+        "capacity": 45943,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/380.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1138,
+        "name": "America de Cali",
+        "country": "Colombia",
+        "founded": 13,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1138.png"
+      },
+      "venue": {
+        "id": 368,
+        "name": "Estadio Olímpico Pascual Guerrero",
+        "address": "Carrera 36 entre Calles 5 y 5B3",
+        "city": "Santiago de Cali",
+        "capacity": 38648,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/368.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1139,
+        "name": "Santa Fe",
+        "country": "Colombia",
+        "founded": 1941,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1139.png"
+      },
+      "venue": {
+        "id": 383,
+        "name": "Estadio Nemesio Camacho El Campín",
+        "address": "Avenida N.Q.S Calle 57",
+        "city": "Bogotá, D.C.",
+        "capacity": 37000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/383.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1140,
+        "name": "Patriotas",
+        "country": "Colombia",
+        "founded": 2003,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1140.png"
+      },
+      "venue": {
+        "id": 372,
+        "name": "Estadio de La Independencia",
+        "address": "Villa Olímpica",
+        "city": "Tunja",
+        "capacity": 20630,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/372.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1141,
+        "name": "Alianza Petrolera",
+        "country": "Colombia",
+        "founded": 1991,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1141.png"
+      },
+      "venue": {
+        "id": 367,
+        "name": "Estadio Daniel Villa Zapata",
+        "address": "Estadio de Béisbol 26 de abril, Villa Olímpica",
+        "city": "Barrancabermeja",
+        "capacity": 10400,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/367.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1142,
+        "name": "Deportes Tolima",
+        "country": "Colombia",
+        "founded": 1954,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1142.png"
+      },
+      "venue": {
+        "id": 375,
+        "name": "Estadio Manuel Murillo Toro",
+        "address": "Carrera 4A Bis Nº 34 - 60 con Calle 36",
+        "city": "Ibagué",
+        "capacity": 38000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/375.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1143,
+        "name": "Leones FC",
+        "country": "Colombia",
+        "founded": 1991,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1143.png"
+      },
+      "venue": {
+        "id": 381,
+        "name": "Estadio Alberto Grisales",
+        "address": "Route 45A",
+        "city": "Rionegro, Antioquia",
+        "capacity": 14000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/381.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1144,
+        "name": "Rionegro Aguilas",
+        "country": "Colombia",
+        "founded": 1991,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1144.png"
+      },
+      "venue": {
+        "id": 381,
+        "name": "Estadio Alberto Grisales",
+        "address": "Route 45A",
+        "city": "Rionegro, Antioquia",
+        "capacity": 14000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/381.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1145,
+        "name": "Tigres FC",
+        "country": "Colombia",
+        "founded": 1997,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1145.png"
+      },
+      "venue": {
+        "id": 371,
+        "name": "Estadio Metropolitano de Techo",
+        "address": "Tv 71D, Kennedy",
+        "city": "Bogotá, D.C.",
+        "capacity": 7800,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/371.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1146,
+        "name": "Cortulua",
+        "country": "Colombia",
+        "founded": 1967,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1146.png"
+      },
+      "venue": {
+        "id": 1690,
+        "name": "Estadio Doce de Octubre",
+        "address": "Barrio Doce de Octubre",
+        "city": "Tuluá",
+        "capacity": 16000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1690.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1147,
+        "name": "Fortaleza FC",
+        "country": "Colombia",
+        "founded": 2010,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1147.png"
+      },
+      "venue": {
+        "id": 382,
+        "name": "Estadio Municipal de Cota",
+        "address": "Camellon de Las Flores",
+        "city": "Cota",
+        "capacity": 4000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/382.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1458,
+        "name": "Bogota FC",
+        "country": "Colombia",
+        "founded": 2003,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1458.png"
+      },
+      "venue": {
+        "id": 371,
+        "name": "Estadio Metropolitano de Techo",
+        "address": "Tv 71D, Kennedy",
+        "city": "Bogotá, D.C.",
+        "capacity": 7800,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/371.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1459,
+        "name": "Real Cartagena",
+        "country": "Colombia",
+        "founded": 1971,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1459.png"
+      },
+      "venue": {
+        "id": 385,
+        "name": "Estadio Olímpico Jaime Morón León",
+        "address": "Calle 31B, Barrio Olaya Herrera",
+        "city": "Cartagena de Indias",
+        "capacity": 16068,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/385.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1460,
+        "name": "Popayan",
+        "country": "Colombia",
+        "founded": 2002,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1460.png"
+      },
+      "venue": {
+        "id": 368,
+        "name": "Estadio Olímpico Pascual Guerrero",
+        "address": "Carrera 36 entre Calles 5 y 5B3",
+        "city": "Santiago de Cali",
+        "capacity": 38648,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/368.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1461,
+        "name": "Quindio",
+        "country": "Colombia",
+        "founded": 1951,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1461.png"
+      },
+      "venue": {
+        "id": 374,
+        "name": "Estadio Centenario",
+        "address": "Km. 1 vía al Aeropuerto El Edén",
+        "city": "Armenia",
+        "capacity": 20729,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/374.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1462,
+        "name": "Deportivo Pereira",
+        "country": "Colombia",
+        "founded": 1944,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1462.png"
+      },
+      "venue": {
+        "id": 378,
+        "name": "Estadio Hernán Ramírez Villegas",
+        "address": "Villa Olímpica Pereira",
+        "city": "Pereira",
+        "capacity": 30297,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/378.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1463,
+        "name": "Real Santander",
+        "country": "Colombia",
+        "founded": 2006,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1463.png"
+      },
+      "venue": {
+        "id": 386,
+        "name": "Estadio de Fútbol Erwin O'Neil",
+        "address": null,
+        "city": "San Andrés y Providencia",
+        "capacity": 3000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/386.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1464,
+        "name": "Llaneros",
+        "country": "Colombia",
+        "founded": 2012,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1464.png"
+      },
+      "venue": {
+        "id": 1763,
+        "name": "Estadio Manuel Calle Lombana",
+        "address": null,
+        "city": "Villavicencio",
+        "capacity": 15000,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/1763.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1465,
+        "name": "Union Magdalena",
+        "country": "Colombia",
+        "founded": 1953,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1465.png"
+      },
+      "venue": {
+        "id": 387,
+        "name": "Estadio Sierra Nevada",
+        "address": "Calle 39, Bureche",
+        "city": "Santa Marta",
+        "capacity": 16000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/387.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1466,
+        "name": "Barranquilla",
+        "country": "Colombia",
+        "founded": 1934,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1466.png"
+      },
+      "venue": {
+        "id": 366,
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+        "city": "Barranquilla",
+        "capacity": 49612,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/366.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1467,
+        "name": "Valledupar",
+        "country": "Colombia",
+        "founded": 2003,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1467.png"
+      },
+      "venue": {
+        "id": 388,
+        "name": "Estadio Armando Maestre Pavajeau",
+        "address": null,
+        "city": "Valledupar",
+        "capacity": 10000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/388.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1468,
+        "name": "Depor FC",
+        "country": "Colombia",
+        "founded": 2005,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1468.png"
+      },
+      "venue": {
+        "id": 368,
+        "name": "Estadio Olímpico Pascual Guerrero",
+        "address": "Carrera 36 entre Calles 5 y 5B3",
+        "city": "Santiago de Cali",
+        "capacity": 38648,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/368.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1469,
+        "name": "Orsomarso",
+        "country": "Colombia",
+        "founded": 2016,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1469.png"
+      },
+      "venue": {
+        "id": 1867,
+        "name": "Estadio Francisco Rivera Escobar",
+        "address": "Carrera 35",
+        "city": "Palmira",
+        "capacity": 9000,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/1867.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1470,
+        "name": "Cucuta",
+        "country": "Colombia",
+        "founded": 1949,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1470.png"
+      },
+      "venue": {
+        "id": 373,
+        "name": "Estadio General Santander",
+        "address": "Avenida 0A 3-56, Barrio Lleras Restrepo",
+        "city": "Cúcuta",
+        "capacity": 42901,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/373.png"
+      }
+    },
+    {
+      "team": {
+        "id": 1737,
+        "name": "Colombia W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/1737.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 4636,
+        "name": "Academia",
+        "country": "Colombia",
+        "founded": 1998,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/4636.png"
+      },
+      "venue": {
+        "id": 3493,
+        "name": "Estadio Compensar",
+        "address": null,
+        "city": null,
+        "capacity": 4500,
+        "surface": "artificial turf",
+        "image": "https://media.api-sports.io/football/venues/3493.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10188,
+        "name": "Colombia U23",
+        "country": "Colombia",
+        "founded": 1924,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/10188.png"
+      },
+      "venue": {
+        "id": 366,
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+        "city": "Barranquilla",
+        "capacity": 49612,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/366.png"
+      }
+    },
+    {
+      "team": {
+        "id": 10285,
+        "name": "Colombia U20",
+        "country": "Colombia",
+        "founded": 1924,
+        "national": true,
+        "logo": "https://media.api-sports.io/football/teams/10285.png"
+      },
+      "venue": {
+        "id": 366,
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+        "city": "Barranquilla",
+        "capacity": 49612,
+        "surface": "grass",
+        "image": "https://media.api-sports.io/football/venues/366.png"
+      }
+    },
+    {
+      "team": {
+        "id": 11057,
+        "name": "Millonarios U20",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/11057.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15718,
+        "name": "Atlético Bucaramanga W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15718.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15719,
+        "name": "Fortaleza",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15719.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15720,
+        "name": "Real San Andrés W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15720.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15721,
+        "name": "América de Cali W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15721.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15722,
+        "name": "Atlético Nacional W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15722.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15723,
+        "name": "Deportivo Cali W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15723.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15724,
+        "name": "Deportivo Pasto W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15724.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15725,
+        "name": "Independiente Medellín W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15725.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15726,
+        "name": "Junior W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15726.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15727,
+        "name": "La Equidad W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15727.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15728,
+        "name": "Llaneros W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15728.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15729,
+        "name": "Millonarios W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15729.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    },
+    {
+      "team": {
+        "id": 15730,
+        "name": "Santa Fe W",
+        "country": "Colombia",
+        "founded": null,
+        "national": false,
+        "logo": "https://media.api-sports.io/football/teams/15730.png"
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "address": null,
+        "city": null,
+        "capacity": null,
+        "surface": null,
+        "image": null
+      }
+    }
+  ]
+}

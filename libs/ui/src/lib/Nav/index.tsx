@@ -10,7 +10,6 @@ interface NavLinkProps {
 
 const NavLink: FC<NavLinkProps> = ({ to, name, router }) => {
   const activeClass = router.pathname === to ? 'font-bold' : '';
-  console.log(router.pathname);
   return (
     <Link href={to}>
       <a href={to} className={`text-white text-xl ${activeClass}`}>
@@ -23,9 +22,10 @@ const NavLink: FC<NavLinkProps> = ({ to, name, router }) => {
 const Nav: FC = () => {
   const router = useRouter();
   return (
-    <div>
-      <NavLink to="/countries" name="Países" router={router} />
-    </div>
+    <nav className="flex gap-x-5">
+      <NavLink to="/countries" name="Countries" router={router} />
+      <NavLink to="/" name="Home" router={router} />
+    </nav>
   );
 };
 

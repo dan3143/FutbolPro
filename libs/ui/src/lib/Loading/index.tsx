@@ -1,10 +1,12 @@
 import styles from './loading.module.scss';
 
 const Loading = () => (
-  <div className={styles.balls}>
-    <div></div>
-    <div></div>
-    <div></div>
+  <div className="mt-16 flex justify-center">
+    <div className={styles.balls}>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
 );
 
