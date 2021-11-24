@@ -7,9 +7,12 @@ const Countries = () => {
   return (
     <div className="p-10">
       <div>
-        <SearchBar placeholder="Busca un país" filter={filterCountries} />
+        <SearchBar
+          placeholder="Search for a country"
+          filter={filterCountries}
+        />
         <p className="mb-5 text-xl text-gray-700">
-          Países encontrados: {totalData}
+          Countries found: {totalData}
         </p>
         {isLoading ? (
           <Loading />
