@@ -1,5 +1,5 @@
 import React from 'react';
-import { act, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Countries from '../pages/countries';
 
@@ -8,6 +8,12 @@ describe('Countries', () => {
     render(<Countries />);
     const colombia = await screen.findByRole('heading', { name: /colombia/i });
     expect(colombia).toBeInTheDocument();
+  });
+
+  it("should show countries' flags", async () => {
+    render(<Countries />);
+    const flags = await screen.findAllByRole('img');
+    expect(flags).not.toHaveLength(0);
   });
 
   it('should filter countries', async () => {
