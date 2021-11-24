@@ -9,7 +9,7 @@ const Header: FC = () => (
       <a className="flex items-center gap-x-5" href="/">
         <Ball width={64} height={64} className="fill-current text-white" />
         <h1 className="hidden sm:block text-white font-bold text-3xl">
-          Fútbol Pro
+          Football Pro
         </h1>
       </a>
     </Link>
