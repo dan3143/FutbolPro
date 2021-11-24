@@ -5,7 +5,7 @@
   "scripts": {
     "start": "next start dist/apps/next",
     "build": "nx build",
-    "test": "nx test",
+    "test": "nx run-many --target=test --all",
     "dev": "nx serve"
   },
   "private": true,
