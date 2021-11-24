@@ -23,9 +23,9 @@ const NavLink: FC<NavLinkProps> = ({ to, name, router }) => {
 const Nav: FC = () => {
   const router = useRouter();
   return (
-    <div>
+    <nav>
       <NavLink to="/countries" name="Países" router={router} />
-    </div>
+    </nav>
   );
 };
 
