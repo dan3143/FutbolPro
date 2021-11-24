@@ -13,6 +13,12 @@ interface Team {
   logo: string;
 }
 
+interface TeamResponse {
+  id: number;
+  name: string;
+  logo: string;
+}
+
 interface Venue {
   id: number;
   name: string;
@@ -25,11 +31,16 @@ interface Venue {
 
 interface Player {
   id: number;
-  firstName: string;
-  lastName: string;
+  name: string;
   age: number;
-  nationality: string;
+  number: number;
+  position: string;
   photo: string;
 }
 
-export type { Country, Team, Player, Venue };
+interface PlayersResponse {
+  team: TeamResponse;
+  players: Array<Player>;
+}
+
+export type { Country, Team, Player, Venue, PlayersResponse, TeamResponse };

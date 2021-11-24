@@ -12,6 +12,7 @@ const getTeams = (country: string, from = 'json'): Promise<Array<Team>> => {
 };
 
 const from = process.env.NODE_ENV === 'development' ? 'json' : 'api';
+console.log(process.env.NODE_ENV);
 
 const useTeams = (
   country: string
