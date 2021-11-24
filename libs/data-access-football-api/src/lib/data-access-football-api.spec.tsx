@@ -28,19 +28,19 @@ const COLOMBIA_TEAM_OBJ = {
 describe('Football service', () => {
   it('Should fetch countries', async () => {
     const countries = await fetchCountries();
-    expect(countries.length).not.toBe(0);
+    expect(countries).not.toHaveLength(0);
     expect(countries).toContainEqual(COLOMBIA_OBJ);
   });
 
   it("Should fetch country's teams", async () => {
     const teams = await fetchTeams('Colombia');
-    expect(teams.length).not.toBe(0);
+    expect(teams).not.toHaveLength(0);
     expect(teams).toContainEqual(COLOMBIA_TEAM_OBJ);
   });
 
   it("Should fetch team's players", async () => {
     const players = await fetchPlayers(COLOMBIA_ID);
-    expect(players.players).not.toBe(0);
+    expect(players.players).not.toHaveLength(0);
     expect(players.players).toContainEqual(D_OSPINA);
   });
 });
