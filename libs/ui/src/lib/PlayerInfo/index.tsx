@@ -12,7 +12,7 @@ const PlayerInfo: FC<PlayerInfoProps> = ({ player }) => {
       <img src={photo} alt={name} className="rounded-full border-2 mb-3" />
       <span className="text-2xl text-gray-700 font-bold">{name}</span>
       <span className="text-gray-600">{position}</span>
-      <span className="text-gray-500">Age: {age}</span>
+      {age && <span className="text-gray-500">Age: {age}</span>}
     </article>
   );
 };
