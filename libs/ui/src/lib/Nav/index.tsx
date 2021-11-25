@@ -23,8 +23,7 @@ const Nav: FC = () => {
   const router = useRouter();
   return (
     <nav className="flex gap-x-5">
-      <NavLink to="/countries" name="Countries" router={router} />
-      <NavLink to="/" name="Home" router={router} />
+      <NavLink to="/" name="Countries" router={router} />
     </nav>
   );
 };

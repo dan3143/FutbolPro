@@ -42,6 +42,15 @@
         "passWithNoTests": true
       }
     },
+
+    "testCI": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "ci": true,
+        "reporters": ["default", "jest-junit"],
+        "jestConfig": "apps/next/jest.config.js"
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],

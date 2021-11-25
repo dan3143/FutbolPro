@@ -3,9 +3,11 @@ import React, { FC } from 'react';
 import { Loading, PlayerInfo } from '@futbol-pro/ui';
 import usePlayers from '../../hooks/usePlayers';
 
-const Players: FC = () => {
-  const router = useRouter();
-  const teamId = Number.parseInt(router.query.teamId as string);
+interface PlayersInterface {
+  teamId: number;
+}
+
+const Players: FC<PlayersInterface> = ({ teamId }) => {
   const [players, team, isLoading] = usePlayers(teamId);
   const totalData = players.length;
 
@@ -39,4 +41,11 @@ const Players: FC = () => {
   );
 };
 
-export default Players;
+const PlayersPage: FC = () => {
+  const router = useRouter();
+  const teamId = Number.parseInt(router.query.teamId as string);
+  return <Players teamId={teamId} />;
+};
+
+export { Players };
+export default PlayersPage;

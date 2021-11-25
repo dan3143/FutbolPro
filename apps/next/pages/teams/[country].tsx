@@ -3,9 +3,11 @@ import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 import { Loading, TeamInfo, SearchBar } from '@futbol-pro/ui';
 
-const Teams: FC = () => {
-  const router = useRouter();
-  const country = router.query.country as string;
+interface TeamsProps {
+  country: string;
+}
+
+const Teams: FC<TeamsProps> = ({ country }) => {
   const [teams, filterTeams, isLoading] = useTeams(country);
   const totalData = teams.length;
   return (
@@ -24,4 +26,11 @@ const Teams: FC = () => {
   );
 };
 
-export default Teams;
+const TeamsPage: FC = () => {
+  const router = useRouter();
+  const country = router.query.country as string;
+  return <Teams country={country} />;
+};
+
+export { Teams };
+export default TeamsPage;

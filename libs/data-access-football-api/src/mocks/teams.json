@@ -1,0 +1,101 @@
+[
+  {
+    "get": "teams",
+    "parameters": {
+      "country": "Argentina"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 26,
+          "name": "Argentina",
+          "country": "Argentina",
+          "founded": 1893,
+          "national": true,
+          "logo": "https://media.api-sports.io/football/teams/26.png"
+        },
+        "venue": {
+          "id": 31,
+          "name": "Estadio Monumental Antonio Vespucio Liberti",
+          "address": "Avenida Presidente José Figueroa Alcorta 7597, Núñez",
+          "city": "Capital Federal, Ciudad de Buenos Aires",
+          "capacity": 65645,
+          "surface": "grass",
+          "image": "https://media.api-sports.io/football/venues/31.png"
+        }
+      }
+    ]
+  },
+  {
+    "get": "teams",
+    "parameters": {
+      "country": "Brazil"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 6,
+          "name": "Brazil",
+          "country": "Brazil",
+          "founded": 1914,
+          "national": true,
+          "logo": "https://media.api-sports.io/football/teams/6.png"
+        },
+        "venue": {
+          "id": 204,
+          "name": "Estadio Jornalista Mário Filho (Maracanã)",
+          "address": "Rua Professor Eurico Rabelo, Maracanã",
+          "city": "Rio de Janeiro, Rio de Janeiro",
+          "capacity": 78838,
+          "surface": "grass",
+          "image": "https://media.api-sports.io/football/venues/204.png"
+        }
+      }
+    ]
+  },
+  {
+    "get": "teams",
+    "parameters": {
+      "country": "Colombia"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 8,
+          "name": "Colombia",
+          "country": "Colombia",
+          "founded": 1924,
+          "national": true,
+          "logo": "https://media.api-sports.io/football/teams/8.png"
+        },
+        "venue": {
+          "id": 366,
+          "name": "Estadio Metropolitano Roberto Meléndez",
+          "address": "Intersección de la Avenida Circunvalar con la Calle 45",
+          "city": "Barranquilla",
+          "capacity": 49612,
+          "surface": "grass",
+          "image": "https://media.api-sports.io/football/venues/366.png"
+        }
+      }
+    ]
+  }
+]

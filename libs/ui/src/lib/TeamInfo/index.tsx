@@ -20,7 +20,7 @@ const TeamInfo: FC<TeamInfoProps> = ({ team, className }) => {
           <div className="mx-4 hidden sm:block border-r"></div>
           <section className="flex-1 flex flex-col justify-center">
             <h4 className="text-xl text-gray-800 font-bold">{team.name}</h4>
-            <p className="text-gray-700">{team.founded}</p>
+            <span className="text-gray-700 block">{team.founded}</span>
           </section>
         </article>
       </a>
