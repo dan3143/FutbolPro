@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Countries from '../pages/countries';
+import Countries from '../pages/index';
 import { Teams } from '../pages/teams/[country]';
 import { Players } from '../pages/players/[teamId]';
 
