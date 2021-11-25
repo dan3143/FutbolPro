@@ -20,6 +20,14 @@
         "jestConfig": "libs/data-access-football-api/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "testCI": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "ci": true,
+        "reporters": ["default", "jest-junit"],
+        "jestConfig": "libs/data-access-football-api/jest.config.js"
+      }
     }
   }
 }

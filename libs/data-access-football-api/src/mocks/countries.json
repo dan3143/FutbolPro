@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "flag": "https://media.api-sports.io/flags/ar.svg"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "flag": "https://media.api-sports.io/flags/br.svg"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "flag": "https://media.api-sports.io/flags/co.svg"
+  }
+]

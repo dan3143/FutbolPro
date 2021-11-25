@@ -28,7 +28,16 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: npm ci && npm run test
+      - run:
+          name: Run tests
+          command: npm ci && npm run testCI
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: ./reports/junit
+            JEST_JUNIT_UNIQUE_OUTPUT_NAME: "true"
+      - store_test_results:
+          path: ./reports/junit
+      - store_artifacts:
+          path: ./reports/junit
 
   build:
     docker:

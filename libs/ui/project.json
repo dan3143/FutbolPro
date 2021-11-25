@@ -18,6 +18,14 @@
         "jestConfig": "libs/ui/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "testCI": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "ci": true,
+        "reporters": ["default", "jest-junit"],
+        "jestConfig": "libs/ui/jest.config.js"
+      }
     }
   }
 }
