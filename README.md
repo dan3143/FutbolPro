@@ -1,7 +1,4 @@
 # FutbolPro
-
-[![dan3143](https://circleci.com/gh/dan3143/FutbolPro.svg?style=shield)](<LINK>)
-
 A Nx + NextJS based app to show football information.
 
 You can select a country from the list, and it will show all the football teams from that country. The teams themselves can also be clicked and they will show all the players.
