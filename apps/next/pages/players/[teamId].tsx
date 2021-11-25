@@ -19,9 +19,7 @@ const Players: FC<PlayersInterface> = ({ teamId }) => {
             // eslint-disable-next-line
             <img src={team.logo} alt={team.name} width={64} />
           }
-          <h2 className="font-bold text-3xl">
-            Players of {team.name}&apos;s team
-          </h2>
+          <h2 className="font-bold text-3xl">{team.name}&apos;s players</h2>
         </header>
       )}
 
